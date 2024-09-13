@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const chatbox = document.getElementById('chatbox-text');
     const messages = [
         "Connection Status: Wired",
+        "Building the future, one line of code at a time.",
         "User: Johnny Nguyen",
         "AI Research: Exploring Ethics in AI",
         "Machine Learning Project: AI Identity",
