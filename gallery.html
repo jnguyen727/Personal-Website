@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lain Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- Draggable Lain Webcam Window -->
+    <div class="window" id="lain-webcam">
+        <div class="window-header">
+            <span>Lain Webcam</span>
+            <button class="close-btn">X</button>
+        </div>
+        <div class="window-content">
+            <img src="images/lain-avatar.gif" alt="Lain Webcam" class="lain-webcam">
+        </div>
+    </div>
+
+    <!-- Draggable Lain Chatbox Window -->
+    <div class="window" id="chatbox-window">
+        <div class="window-header">
+            <span>Lain Chatbox</span>
+            <button class="close-btn">X</button>
+        </div>
+        <div class="window-content">
+            <p id="chatbox-text">...</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
